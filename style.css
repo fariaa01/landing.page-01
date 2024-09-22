@@ -1,0 +1,408 @@
+*{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .logo-container {
+    position: relative; 
+    text-align: center; 
+}
+
+.background img {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    position: absolute; 
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 120px; 
+    height: auto; 
+}
+
+.text {
+    position: absolute;
+    top: 60%; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.subtitle {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+.additional-text {
+    font-size: 18px; 
+    margin-top: 20px;
+    width: 70%; 
+    text-align: center; 
+    color: hsl(210, 10%, 33%)
+
+}
+
+.button-container{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 15px 40px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.verde {
+    background-color: #00bcd4;;
+}
+
+.verde:hover {
+    background-color: #0097a7; 
+}
+
+.azul {
+    background-color: #7031e6;
+}
+
+.azul:hover {
+    background-color: #8c47d6; 
+}
+
+.text-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.subtitle-2{
+    font-size: 38px;
+    color: #333;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.additional-text-2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px; 
+    font-size: 18px;
+    color:  hsl(210, 10%, 33%);
+    width: 45%;
+}
+
+.container {
+    margin: 5%;
+    display: flex;
+    padding: 20px;
+}
+
+.imagem {
+    width: 900px; 
+    height: 700px;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.textos{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.texto-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-item h2{
+    margin-top: 5%;
+    margin-bottom: 3px;
+    font-size: 30px;
+    color: #333;
+}
+
+.texto-item p{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color:  hsl(210, 10%, 33%);
+    width: 75%;
+}
+
+.texto-item-2 h2{
+    margin-top: 10%;
+    margin-bottom: 3px;
+    font-size: 30px;
+    color: #333;
+}
+
+.texto-item-2 p{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 15px;
+    color:  hsl(210, 10%, 33%);
+    width: 75%;
+}
+
+.texto-item-3 h2{
+    margin-top: 10%;
+    margin-bottom: 3px;
+    font-size: 30px;
+    color: #333;
+}
+
+.texto-item-3 p{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 15px;
+    color:  hsl(210, 10%, 33%);
+    width: 75%;
+}
+
+
+.imagem-2{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%; 
+}
+
+.subtitle-4 {
+    margin-top: 7%;
+    font-size: 38px;
+    color: #333;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center; 
+}
+
+.additional-text-4 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 1%; 
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+    width: 75%;
+    text-align: center; 
+}
+
+
+/*Pirimeira IMG (blacklist) */
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px; 
+    gap: 100px; 
+}
+
+.image-item, .image-item-2, .image-item-3 {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    flex: 0 1 300px; 
+    max-width: 300px; 
+}
+
+.image-item img {
+    max-width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.image-item-2 img, .image-item-3 img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 17px;
+}
+
+.image-item h3, .image-item-2 h3, .image-item-3 h3 {
+    margin: 10px 0 5px;
+    font-size: 25px;
+}
+
+.image-item p, .image-item-2 p, .image-item-3 p {
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    width: 400px;
+}
+
+
+/*Espaço das logos */
+
+.logo-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin-top: 150px;
+    flex-wrap: wrap; 
+    gap: 130px;
+    padding: 20px; 
+}
+
+.logo-1 {
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.logo-1 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.button-container-2{
+    margin-top: 50px;
+    display: flex;
+    gap: 15px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.verde-2 {
+    background-color: #00bcd4;;
+}
+
+.verde-2:hover {
+    background-color: #0097a7; 
+}
+
+.azul-2 {
+    background-color: #7031e6;
+}
+
+.azul-2:hover {
+    background-color: #8c47d6; 
+}
+
+.footer-container {
+    background-color: #f7f3f3;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 30px;
+}
+
+.image-footer img {
+    height: 70px; 
+    width: 70px;
+    justify-content: flex-start;
+    margin-left: 200px;
+}
+
+.container-links {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center;
+    margin-inline-end: 300px;
+    gap: 50px;
+}
+
+.links, .links-2 {
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+    margin: 15px;
+}
+
+.links a{
+    color: rgb(122, 117, 117); 
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.links-2 a{
+    color: rgb(122, 117, 117); 
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.links a :hover {
+    text-decoration: underline; 
+}
+
+
+.links-2 a :hover {
+    text-decoration: underline; 
+}
+
+.social-media {
+    display: flex;
+    gap: 20px; 
+    margin-right: 150px;
+}
+
+.social-media a {
+    color: rgb(122, 117, 117); 
+    text-decoration: none; 
+    font-size: 30px; 
+}
+
+.social-media a:hover {
+    color: #00bcd4; 
+}
+
